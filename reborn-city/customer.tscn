@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://crt6wnyjjpvp"]
+
+[ext_resource type="Script" uid="uid://bi587tvi8kkon" path="res://Customer.cs" id="1_7tiyv"]
+
+[node name="Customer" type="Node2D" unique_id=868298066]
+script = ExtResource("1_7tiyv")
+
+[node name="Body" type="ColorRect" parent="." unique_id=1936199913]
+custom_minimum_size = Vector2(30, 30)
+offset_right = 40.0
+offset_bottom = 40.0
+color = Color(0.019607844, 1, 1, 1)
